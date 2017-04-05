@@ -9,7 +9,31 @@
 </head>
 <body>
 
-	<section class="container">
+	<header>
+		<nav class="container navbar navbar-default">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#itens-menu" aria-expanded="false">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+
+				<a class="navbar-brand" href="#">TopCasaFina Arquitetura</a>
+			</div>
+
+			<div id="itens-menu" class="collapse navbar-collapse">
+				<ul class="nav navbar-nav">
+					<li><a href="#sobre-nos">Sobre nós</a></li>
+					<li><a href="#nossos-projetos">Nosso projetos</a></li>
+					<li><a href="#depoimentos">Depoimentos</a></li>
+					<li><a href="#video">Vídeo</a></li>
+					<li><a href="#contato">Contato</a></li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+
+	<section id="sobre-nos" class="container">
 		<h2>Sobre nós</h2>
 		<img class="img-responsive" src="img/empresa.jpg">
 
@@ -48,7 +72,7 @@
 		<p>Mais de 5 milhões de clientes satisfeitos em todo o mundo.</p>
 	</div>
 
-	<section class="container">
+	<section id="nossos-projetos" class="container">
 		<h2>Nossos projetos</h2>
 
 		<figure class="thumbnail">
@@ -92,7 +116,7 @@
 		</figure>
 	</section>
 
-	<section>
+	<section id="depoimentos">
 		<h2 class="container titulo-depoimentos">Depoimentos de clientes</h2>
 		<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
 			<!-- Indicators -->
@@ -139,14 +163,14 @@
 		</div>
 	</section>
 
-	<section class="container">
+	<section id="video" class="container">
 		<h2>Vídeo institucional</h2>
 		<div class="embed-responsive embed-responsive-16by9">
 			<iframe width="560" height="315" src="https://www.youtube.com/embed/9zAiiyhNAHs" frameborder="0" allowfullscreen></iframe>
 		</div>
 	</section>
 
-	<section class="container">
+	<section id="contato" class="container">
 		<h2>Contato</h2>
 		<p>Entre em contato conosco</p>
 
@@ -179,29 +203,29 @@
 				</div>
 			</div><!-- 
 
-			 --><select class="contato-select form-control">
-				<option disabled selected>Tipo de situação</option>
-				<option>Casa</option>
-				<option>Apartamento</option>
-			</select>
+		--><select class="contato-select form-control">
+		<option disabled selected>Tipo de situação</option>
+		<option>Casa</option>
+		<option>Apartamento</option>
+	</select>
 
-			<button class="btn btn-primary">Enviar</button>
-		</form>
-	</section>
+	<button class="btn btn-primary">Enviar</button>
+</form>
+</section>
 
-	<footer>
-		<address>
-			<strong>TopCasaFina Arquitetura</strong><br>
-			Av. Polydoro Santiago, 331, Centro<br>
-			Cocal do Sul, SC<br>
-			Tel.: (48) 99999-9999<br>
-		</address>
-		<address>
-			E-mail: contato@topcasafina.com.br
-		</address>
-	</footer>
+<footer>
+	<address>
+		<strong>TopCasaFina Arquitetura</strong><br>
+		Av. Polydoro Santiago, 331, Centro<br>
+		Cocal do Sul, SC<br>
+		Tel.: (48) 99999-9999<br>
+	</address>
+	<address>
+		E-mail: contato@topcasafina.com.br
+	</address>
+</footer>
 
-	<script src="jquery.min.js"></script>
-	<script src="bootstrap/js/bootstrap.min.js"></script>
+<script src="jquery.min.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
 </body>
 </html>
